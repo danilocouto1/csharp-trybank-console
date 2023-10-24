@@ -5,13 +5,50 @@
     {
       "tool": {
         "name": "Compilador do Microsoft (R) Visual C#",
-        "version": "4.2.0.0",
-        "fileVersion": "4.2.0-4.22220.5 (432d17a8)",
-        "semanticVersion": "4.2.0",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23416.8 (43b0b05c)",
+        "semanticVersion": "4.7.0",
         "language": "pt-BR"
       },
       "results": [
-      ]
+        {
+          "ruleId": "CS0162",
+          "level": "warning",
+          "message": "Código inacessível detectado",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/User/Documents/C%23%20coisas/Trybe%20Acelera%C3%A7%C3%A3o/csharp-001-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 56,
+                  "endLine": 56,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        }
+      ],
+      "rules": {
+        "CS0162": {
+          "id": "CS0162",
+          "shortDescription": "Código inacessível detectado",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0162)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
     }
   ]
 }
